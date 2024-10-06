@@ -29,7 +29,7 @@ font-style: bold  ;
 }
 @media screen and (min-width: 500px) {
   .container {
-   grid-row: 3;
+   width:400px;
   }
 }
 
