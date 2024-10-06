@@ -27,6 +27,12 @@ font-style: bold  ;
   border-width: 2px;
   
 }
+@media screen and (min-width: 500px) {
+  .container {
+    column-count: 3;
+  }
+}
+
 .boxes{
   display: flex;
   justify-content: center;
