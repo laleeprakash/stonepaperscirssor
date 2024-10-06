@@ -29,16 +29,18 @@ font-style: bold  ;
 }
 @media screen and (max-width: 500px) {
   .box{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
   }
   .boxes {
     width: 400px;
+    gap: 0.8em;
     height: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  column-count: 2;
   }
 }
 
