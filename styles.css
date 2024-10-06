@@ -27,15 +27,17 @@ font-style: bold  ;
   border-width: 2px;
   
 }
-@media screen and (min-width: 500px) {
-  .container {
+@media screen and (max-width: 500px) {
+  .boxes {
    width:400px;
   }
 }
 
 .boxes{
   display: flex;
+
   justify-content: center;
+  align-items: center;
   text-align: center;
   padding-top: 4rem;
   gap: 3rem;
