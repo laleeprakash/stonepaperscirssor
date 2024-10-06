@@ -5,6 +5,7 @@
 }
 
 .title{
+
   color: white;
 background-color: #0B60B0;
 width: 100%;
@@ -28,6 +29,10 @@ font-style: bold  ;
   
 }
 @media screen and (max-width: 500px) {
+  .img{
+    width: 150px;
+    
+  }
   .box{
     width: 75px;
     height: 75px;
