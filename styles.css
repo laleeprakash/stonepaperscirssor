@@ -29,7 +29,7 @@ font-style: bold  ;
 }
 @media screen and (min-width: 500px) {
   .container {
-    column-count: 3;
+   grid-row: 3;
   }
 }
 
