@@ -28,6 +28,10 @@ font-style: bold  ;
   
 }
 @media screen and (max-width: 500px) {
+  .box{
+    width: 100px;
+    height: 100px;
+  }
   .boxes {
     width: 400px;
     height: 400px;
