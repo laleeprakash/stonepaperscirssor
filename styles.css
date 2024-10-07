@@ -42,16 +42,18 @@ font-style: bold  ;
 
 }
 .img{
-    width: 100px;}
+    width: 100px;
+  height: 100px;
+}
 .box{
     width: 75px;
     height: 75px;
   }
   .boxes {
     display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  flex-direction: row;
+ 
     width: 400px;
     gap: 0.8em;
     height: 400px;
