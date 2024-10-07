@@ -32,7 +32,14 @@ font-style: bold  ;
  
   body{
     font-size: 25px;
+    
   }
+  .score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
 .title{
     width: 125%;
     font-size: 30px;
@@ -50,8 +57,11 @@ font-style: bold  ;
     height: 75px;
   }
   .boxes {
+    padding-left: 2rem;
+
     display: flex;
   justify-content:center;
+  text-align: center;
   align-items: center;
  
     width: 400px;
